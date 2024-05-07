@@ -1,0 +1,11 @@
+<nav class="navbar navbar-expand-custom navbar-mainbg" xmlns:h="http://java.sun.com/jsf/html">
+    <a style="display: contents;" class="navbar-logo" href="poseur.xhtml">
+        <img src="Images/quiz-logo.jpeg" alt="est safi logo" class="logo_est" />
+    </a>
+    <h4 class="title-nav" id="titlenav">Interface poseur</h4>
+    <h:outputLabel value="Mr: #{userManager.user.prenom} #{userManager.user.nom}" />
+    <h:form>
+        <h:commandButton class="btn btn-primary ajouter_user"
+                         value="Logout" action="#{userManager.logOut}" />
+    </h:form>
+    </nav>
